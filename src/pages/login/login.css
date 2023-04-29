@@ -1,0 +1,72 @@
+.login {
+    /* height: calc(100vh-55px); */
+    height: calc(100vh - 55px);
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-size: cover;
+
+}
+.loginTitle{
+    font-size: 80px;
+    color: rgb(247, 255, 95);
+    font-family: 'Anuphan', sans-serif;
+    font-weight: 400;
+   
+}
+    
+.loginForm{
+    margin-top: 22px;
+    display: flex;
+    flex-direction: column;
+}
+/* .loginTitle > label{
+    color: aquamarine;
+    margin: 30px 0;
+    
+
+} */
+.labelCL{
+    color: black; 
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.loginInput{
+    padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: 2px solid rgb(16, 12, 11);
+}
+.loginButton{
+    width: 140px;
+ align-self: center;
+ border: none;
+ border-radius: 14px;
+ color: white;
+ background-color: rgb(238, 77, 77);
+ padding: 15px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ cursor: pointer;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    padding: 15px;
+    color: white;
+    border-radius: 12px;
+
+}
+.loginForm > ::placeholder{
+    color: rgb(84, 84, 203);
+  
+}

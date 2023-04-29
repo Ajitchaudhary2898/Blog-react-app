@@ -1,0 +1,16 @@
+.about{
+    width: 100%;
+    height: calc(100vh - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-image: url("https://thumbs.dreamstime.com/z/logout-digital-screen-technology-abstract-background-134019855.jpg");
+   
+}
+.aboutTitle {
+    font-size: 100px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}

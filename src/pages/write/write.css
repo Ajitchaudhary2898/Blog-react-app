@@ -1,0 +1,71 @@
+.write{
+    padding-top: 60px;
+}
+.writeImg{
+    margin-left: 152px;
+    width: 70vw;
+    height: 252px;
+    border-radius: 12px;
+    /* object-fit: contain; */
+}
+.writeForm{
+position: relative;
+
+}
+/* .writeInputText{
+    font-size: 20px;
+    height: 100vh;
+   outline: none;
+    border: none;
+} */
+.writeFormGroup{
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+    outline: none;
+    
+}
+.writeIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: rgb(165, 160, 154);
+    font-size: 22px;
+}
+.writeInput{
+    font-size: 27px;
+    padding: 22px;
+    width: 70vw;
+    border: none;
+}
+.writeInput:focus{
+    outline:none ;
+}
+.writeText{
+    
+    height: 100vh;
+    font-size: 18px;
+    height: 100vh;
+   outline: none;
+   border: none;
+}
+.writeSumbit{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+    font-size: 20px;
+  
+}
+
+
